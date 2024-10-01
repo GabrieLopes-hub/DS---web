@@ -1,0 +1,26 @@
+body{
+    background-color: blanchedalmond;
+}
+h1{
+    color: aqua;
+    text-align: center;
+}
+p{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    text-align: center;
+}
+.minha-div{
+    background-color: rgb(5, 5, 5);
+    color: rgb(1, 254, 94);
+    border: 2px solid rgb(247, 4, 4);
+    margin: 20px;
+    padding: 20px;
+}
+#minha-div{
+    background-color: rgb(36, 19, 225);
+    color: rgb(1, 254, 94);
+    border: 2px solid rgb(247, 4, 4);
+    margin: 20px;
+    padding: 20px;
+}

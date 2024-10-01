@@ -1,3 +1,18 @@
+/*CSS*/
 h1{
     text-align: center;
+}
+img{
+    border-radius: 15%;
+    max-width:800px;
+    max-height:750px;
+    width: auto;
+    height: auto;
+}
+.minha-div{
+    float: right;
+    max-width:700px;
+    max-height:650px;
+    width: auto;
+    height: auto;
 }

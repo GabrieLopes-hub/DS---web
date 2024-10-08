@@ -1,0 +1,39 @@
+p{
+    font-family: "Dela Gothic One", sans-serif;
+    font-weight: 400;
+    font-style: normal;     
+}
+*{
+    font-size: 20px;
+}
+
+.uppercase{
+    text-transform: uppercase;
+}
+.lowercase{
+    text-transform: lowercase;
+}
+.capitalize{
+    text-transform: capitalize;
+}
+.ident{
+    text-indent: 20px;
+}
+.Shadow{
+    text-shadow: 1px 1px green;
+}
+.Shadow-blur{
+    text-shadow: 1px 1px 4px  green;
+}
+.overline{
+    text-decoration: overline;
+}
+.line-through{
+    text-decoration: line-through;
+}
+.underline{
+    text-decoration: underline;
+}
+.overline-underline{
+    text-decoration: overline underline;
+}

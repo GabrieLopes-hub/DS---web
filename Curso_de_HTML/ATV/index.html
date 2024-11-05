@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+    <form action="#" method="">
+
+        <label for="Nome">Nome da receita:</label>
+        <input type="text" id="Nome" required>
+
+        <label for="cate">Categoria da receita:</label>
+        <select name="cate" id="cate">
+            <option>Categoria 1</option>
+            <option>Categoria 2</option>
+            <option>Categoria 3</option>
+            <option>Categoria 4</option>
+        </select>
+        
+        <label for="ingre">Ingredientes:</label>
+        <textarea id="ingre" rows="8" cols="50"></textarea>
+
+        <label for="modo">Modo de preparo:</label>
+        <textarea id="modo" rows="8" cols="50"></textarea>
+
+        <label for="temp">Tempo de preparo:</label>
+        <input type="time" id="temp" required>
+
+        <label for="foto">Foto da receita:</label>
+        <input type="file" name="foto" id="foto" required>
+
+        <label>Dificuldade da receita:</label>
+        <input class="alinha" type="radio" name="opcao" id="opcao1">
+        <label class="alinha" for="opcao1">Facil</label>
+        <input class="alinha" type="radio" name="opcao" id="opcao2">
+        <label class="alinha" for="opcao2">Medio</label>
+        <input class="alinha" type="radio" name="opcao" id="opcao3">
+        <label class="alinha" for="opcao3">Dificil</label>
+
+        <input id="enviar" type="submit">
+    </form>
+</body>
+</html>

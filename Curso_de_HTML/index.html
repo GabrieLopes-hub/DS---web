@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+    <form action="#" method="">
+
+        <label for="Nome">Nome:</label>
+        <input type="text" name="nome" id="Nome" required autofocus>
+        
+        <label for="email">email:</label>
+        <input type="email" name="email" id="email" required placeholder="exemplo: algo.@gmail.com">
+
+        <label for="telefone">telefone:</label>
+        <input type="tel" name="telefone" id="telefone" required>
+
+        <label for="data">data de nascimento:</label>
+        <input type="date" name="data" id="data" required>
+
+        <label for="num" class="nume">número:</label>
+        <input type="number" class="nume" name="numero" id="num" required>
+
+        <label for="num2" class="nume">número 2:</label>
+        <input type="number" class="nume" name="numero2" id="num2" required>
+        
+        <label for="foto">foto:</label>
+        <input type="file" name="foto" id="foto" required>
+        
+        <!-- O "for" junto do "label" utilizado em todos os codigoa a cima é usado para conectar o texto escrito 
+        com o "input - id", o que ajuda o usuário.
+        O autofocus é utilizado para que o usuário já esteja com aquela aba e preenchimento selecionado-->
+
+
+        <label>radio</label>
+        <input class="alinha" type="radio" name="opcao" id="opcao1">
+        <label class="alinha" for="opcao1">opção 1</label>
+        <input class="alinha" type="radio" name="opcao" id="opcao2">
+        <label class="alinha" for="opcao2">opção 2</label>
+        <input class="alinha" type="radio" name="opcao" id="opcao3">
+        <label class="alinha" for="opcao3">opção 3</label>
+        <input class="alinha" type="radio" name="opcao" id="opcao4">
+        <label class="alinha" for="opcao4">opção 4</label>
+
+        <label>checkbox</label>
+        <input class="alinha" type="checkbox" name="opcao1" id="opcao1.2">
+        <label class="alinha" for="opcao1.2">opção 1.2</label>
+        <input class="alinha" type="checkbox" name="opcao2" id="opcao2.2">
+        <label class="alinha" for="opcao2.2">opção 2.2</label>
+        <input class="alinha" type="checkbox" name="opcao3" id="opcao3.2">
+        <label class="alinha" for="opcao3.2">opção 3.2</label>
+        <input class="alinha" type="checkbox" name="opcao4" id="opcao4.2">
+        <label class="alinha" for="opcao4.2">opção 4.2</label>
+
+        <label for="opcao">Campo de seleção</label>
+        <select name="opcoes" id="opcao">
+            <option>Opção 1</option>
+            <option>Opção 2</option>
+            <option>Opção 3</option>
+            <option>Opção 4</option>
+            <option>Opção 5</option>
+            <option>Opção 6</option>
+            <option>Opção 7</option>
+        </select>
+
+        <label>Informações adicionais</label>
+        <textarea></textarea>
+
+        <input type="submit" id="enviar">
+    </form>
+</body>
+</html>

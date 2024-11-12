@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .div{
+            border: solid;
+        margin: 20px 20% 20px 20%;
+        padding: 10px 3% 10px 3%;
+        }
+        .video{
+            width: 500px;
+            height: 300px;
+        }
+    </style>
+</head>
+<body>
+    <div class="div">
+        <h4>controls: Exibe controles padrão, como play, pause, volume, etc.</h4>
+        <video class="video" src="video.mp4" controls frameborder="0"></video><br><br>
+
+        <h4>autoplay: Inicia o vídeo automaticamente quando a página é carregada <br> (usar com muted para evitar reprodução de som sem aviso).</h4>
+        <video class="video" src="video.mp4" controls autoplay muted frameborder="0"></video><br><br>
+
+        <h4>loop: Faz com que o vídeo reinicie automaticamente após terminar, útil para vídeos de fundo ou clipes curtos.</h4>
+        <video class="video" src="video.mp4" controls loop muted frameborder="0"></video><br><br>
+
+        <h4>muted: Silencia o áudio do vídeo (necessário para vídeos que iniciam automaticamente).</h4>
+        <video class="video" src="video.mp4" controls  muted frameborder="0"></video><br><br>
+
+        <h4>poster: Define uma imagem que aparece enquanto o vídeo carrega ou antes de ser reproduzido.</h4>
+        <video class="video" src="video.mp4" controls poster="imagen.jpg" frameborder="0"></video><br><br>
+
+    </div>
+</body>
+</html>

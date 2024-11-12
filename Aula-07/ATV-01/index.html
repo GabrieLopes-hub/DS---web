@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        img{
+            width: 50px;
+            height: 50px;
+        }
+        body {
+            background-image: url('imagen.jpg');
+            background-size: cover;
+            background-repeat: repeat-x;
+            background-attachment: fixed;
+        }
+        .container{
+            height: 800px;
+            width: 300px;
+            background-color: white;
+            border: 1px solid white;
+
+
+            background-image: url(mamaco.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-image: url('mamaco.jpg');
+            background-attachment: fixed;
+        }
+        .menu-top{
+            width: 100%;
+            padding: 20px;
+            padding-left: 200px;
+            background-color: white;
+            position: sticky;
+            top: 0;
+            display: flex;
+        }
+        .titulo{
+            margin-top: 6px;
+            margin-left: 4px;
+        }
+        .titulo-2{
+            margin-top: 6px;
+            margin-left: 4px;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="menu-top">
+        <img src="icon.svg">
+        <h1 class="titulo">Pagina home</h1>
+    </div>
+
+    <div class="container">
+    <img src="imagen.jpg" alt="imagem" loading="lazy">
+    <h1 class="titulo-2">Imagem</h1>
+    </div>
+</body>
+</html>

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo Scale</title>
+    <style>
+        body {
+
+            display: flex;
+            justify-content: space-between; /* Espalha os itens igualmente */
+            width: 70%; /* Garante que o body ocupe toda a largura disponível */
+            background: linear-gradient(45deg, #12df3b, #d877ff);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            padding: 10px;
+            margin: 30px;
+        }
+        div {
+            color: white;
+            text-align: center;
+            padding-left: none;
+        }
+        .box {
+            width: 100px;
+            height: 100px;
+            background-color: #2a12df;
+            transition: transform 0.5s;
+        }
+        .box:hover {
+            transform: scale(1.5);
+        }
+        .box3 {
+            width: 100px;
+            height: 100px;
+            background-color: #2a12df;
+            opacity: 1;
+            transition: opacity 0.5s;
+        }
+        .box3:hover {
+            opacity: 0.5;
+        }
+        .box4 {
+            width: 100px;
+            height: 100px;
+            background-color: #2a12df;
+            transition: transform 0.5s;
+            border-radius: 100%;
+        }
+        .box4:hover {
+            transform: rotate(100deg);
+        }
+        .box5 {
+            width: 100px;
+            height: 100px;
+            background-color: #2a12df;
+            transition: background-color 2s ease, transform 2s ease;
+        }
+        .box5:hover {
+            background-color: #2ecc71;
+            transform: scale(1.2);
+        }
+        .box6 {
+            width: 100px;
+            height: 100px;
+            background-color: #2a12df;
+            transition: transform 0.5s;
+        }
+        .box6:hover {
+            transform: translate(50px, 50px);
+        }
+        @keyframes moverEfeito {
+        0% {
+            transform: translateY(0);
+            background-color: red;
+        }
+        50% {
+            transform: translateY(200px);
+            background-color: yellow;
+        }
+        100% {
+            transform: translateY(0);
+            background-color: green;
+        }
+        }
+        .animado {
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            animation: moverEfeito 4s ease-in-out infinite;
+        }
+        .borda-animada{
+            width: auto;
+            height: auto;
+            background-color: #2a12df;
+       
+        }
+        .borda-animada:hover{
+            transition: border-radius 5s;
+            width: 200px;
+            height: 400px;
+            background-color: #fb0f0f;
+            border-radius: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">Escale</div>
+    <div class="box3">Opacit</div>
+    <div class="box4">Rotate</div>
+    <div class="box5">Transition</div>
+    <div class="box6">Translate</div>
+    <div class="animado"></div>
+    <div class="borda-animada">Borda animada</div>
+</body>
+</html>

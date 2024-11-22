@@ -1,0 +1,64 @@
+.menu-top{
+    width: 100%;
+    padding: 20px;
+    padding-left: 200px;
+    background-color: rgb(230, 15, 15);
+    position: sticky;
+    top: 0;
+    display: flex;
+}
+.a2{
+    color: rgb(59, 249, 1);
+    text-decoration: none;
+    padding-left: 30px;
+}
+.a1{
+    color: rgb(59, 249, 1);
+    text-decoration: none;
+    padding-left: none;
+}
+img{
+    width: 25px;
+    height: 25px;
+}
+.centro{
+    background-color: black;
+    width: 1000px;
+    height: 10000px;
+    border: solid 5px orange;
+    text-align: center;
+    margin: auto;
+}
+h1{
+    color: white;
+}
+.nav2{
+    display: block;
+    width: auto;
+    background-color: rgb(137, 137, 137);
+    padding: 10px;
+}
+.a3{
+    margin: 100px ;
+    color: rgb(59, 249, 1);
+    text-decoration: none;
+}
+.a4{
+    margin: 110px;
+    color: rgb(59, 249, 1);
+    text-decoration: none;
+}
+.a5{
+    margin: 100px;
+    color: rgb(59, 249, 1);
+    text-decoration: none;
+}
+.a6{
+    margin: 100px;
+    color: rgb(59, 249, 1);
+    text-decoration: none;
+}
+
+/*margin: 110px ;
+
+*/

@@ -1,0 +1,1 @@
+- Aqui, nós aprendemos a usar algumas animações do CSS para encrementar o HTML

@@ -1,0 +1,5 @@
+- Aula introdutoria de JS
+- alert
+- confirm
+- prompt
+- Number.parseInt

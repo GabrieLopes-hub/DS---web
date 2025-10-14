@@ -1,0 +1,22 @@
+.container-custom {
+    height: 1000px;
+    padding-top: 60px; 
+}
+
+#carousel {
+    max-width: 1000px;   
+    max-height: 500px;  
+    margin: auto;
+}
+
+.carousel-inner img {
+    object-fit: cover;
+    height: 500px;
+    border-radius: 10px;
+}
+
+.btn-custom {
+    padding: 10px 30px;
+    font-size: 18px;
+}
+  
